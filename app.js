@@ -1,44 +1,12 @@
 (() => {
-  const c = window.SATHVIK_SITE || {};
-  document.querySelectorAll('a[href*="YOUR_EMAIL@example.com"]').forEach(a => a.href = a.href.replaceAll('YOUR_EMAIL@example.com', c.email || 'YOUR_EMAIL@example.com'));
-  document.querySelectorAll('a[href*="YOUR-LINKEDIN"]').forEach(a => a.href = c.linkedin || a.href);
-  const canonical = document.querySelector('link[rel="canonical"]');
-  if (canonical && c.canonicalUrl) canonical.href = c.canonicalUrl;
-
-  const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-  const total = document.querySelector('#total-companies');
-  const sectorGrid = document.querySelector('#sector-grid');
-  const database = document.querySelector('#database-preview');
-  const search = document.querySelector('#company-search');
-  const filter = document.querySelector('#sector-filter');
-  let data = { sectors: [], companies: [] };
-
-  const renderDatabase = () => {
-    const query = (search?.value || '').trim().toLowerCase();
-    const selected = filter?.value || 'all';
-    const rows = data.companies.filter(company => (selected === 'all' || company.sector === selected) && (!query || company.company.toLowerCase().includes(query))).slice(0, 12);
-    if (!rows.length) { database.innerHTML = '<p class="muted">No companies match this view yet.</p>'; return; }
-    database.innerHTML = '<div class="database-head"><span>Company</span><span>Sector</span><span>Sub-sector</span><span>Decision</span><span>Confidence</span><span>Next trigger</span></div>' + rows.map(company => {
-      const sector = data.sectors.find(item => item.id === company.sector);
-      return `<div class="database-row"><strong>${esc(company.company)}</strong><span>${esc(sector?.short_label || 'Unclassified')}</span><span>${esc(company.sub_sector || 'TBD')}</span><span>${esc(company.decision || 'Seed record')}</span><span>${esc(company.confidence ?? 'TBD')}</span><span class="muted">${esc(company.next_trigger || 'TBD')}</span></div>`;
-    }).join('') + `<p class="database-note">Showing ${rows.length} of ${data.companies.length} public seed records. Full fields—decision, confidence, last reviewed and next trigger—populate as each record is re-reviewed.</p>`;
-  };
-
-  const render = () => {
-    total.textContent = data.summary?.tracked_companies ?? data.companies.length;
-    const candidateCount = document.querySelector('#candidate-count');
-    const proceedCount = document.querySelector('#proceed-count');
-    if (candidateCount) candidateCount.textContent = data.summary?.investment_candidates ?? data.companies.filter(company => ['PROCEED','WATCH','PASS'].includes(company.decision)).length;
-    if (proceedCount) proceedCount.textContent = data.summary?.proceed_screens ?? data.companies.filter(company => String(company.decision).startsWith('PROCEED')).length;
-    sectorGrid.innerHTML = data.sectors.map((sector, index) => {
-      const count = data.companies.filter(company => company.sector === sector.id).length;
-      return `<button class="bottleneck-card" type="button" data-sector="${esc(sector.id)}"><span>0${index + 1}</span><strong>${esc(sector.label)}</strong><b>${count}</b><small>companies tracked</small><p>${esc(sector.bottleneck)}</p></button>`;
-    }).join('');
-    filter.innerHTML = '<option value="all">All sectors</option>' + data.sectors.map(sector => `<option value="${esc(sector.id)}">${esc(sector.short_label)}</option>`).join('');
-    sectorGrid.querySelectorAll('[data-sector]').forEach(button => button.addEventListener('click', () => { filter.value = button.dataset.sector; renderDatabase(); database.scrollIntoView({ behavior: 'smooth', block: 'center' }); }));
-    renderDatabase();
-  };
-  fetch('data/research-universe.json').then(response => { if (!response.ok) throw new Error('research data unavailable'); return response.json(); }).then(json => { data = json; render(); }).catch(() => { total.textContent = '97'; document.querySelector('#candidate-count').textContent = '41'; document.querySelector('#proceed-count').textContent = '3'; sectorGrid.innerHTML = '<p class="muted">The research map is temporarily unavailable. The public universe workbook remains available below.</p>'; });
-  search?.addEventListener('input', renderDatabase);
-  filter?.addEventListener('change', renderDatabase);
+  const c=window.SATHVIK_SITE||{}; const rows=window.RESEARCH_UNIVERSE||[];
+  document.querySelectorAll('a[href*="YOUR_EMAIL@example.com"]').forEach(a=>a.href=a.href.replaceAll('YOUR_EMAIL@example.com',c.email||'sathvik@perfstaq.com'));
+  document.querySelectorAll('a[href*="YOUR-LINKEDIN"]').forEach(a=>a.href=c.linkedin||a.href);
+  const canonical=document.querySelector('link[rel=canonical]'); if(canonical&&c.canonicalUrl) canonical.href=c.canonicalUrl;
+  const layers=[['AI Infrastructure & Inference','Can infrastructure maintain pricing power as token economics collapse?'],['Power, Cooling & Energy','If watts become scarcer than tokens, who owns the power constraint?'],['Semiconductors & Edge Compute','Which specialised compute layers retain defensibility?'],['Networking, Memory & Data Movement','What becomes scarce when compute scales faster than data can move?'],['Physical AI & Robotics','Does reliable physical deployment become the moat when intelligence is cheap?'],['Workflow, Security & Trusted Data','If models commoditise, who owns workflow, distribution and trusted data?']];
+  const map=document.querySelector('#bottleneck-grid'); if(map){ map.innerHTML=layers.map((l,i)=>{const rs=rows.filter(r=>r.layer===l[0]);return `<article class="layer-card"><span class="layer-no">0${i+1}</span><h3>${l[0]}</h3><strong>${rs.length} companies</strong><p>${l[1]}</p><div class="layer-foot"><span>${rs.filter(r=>r.decision==='Tracked').length} tracked</span><span>${rs.filter(r=>r.decision==='Proceed').length} proceed</span><span>${rs.filter(r=>r.decision==='Watch').length} watch</span><span>${rs.filter(r=>r.decision==='Pass').length} pass</span></div></article>`}).join('')+`<p class="outside-layers"><b>${rows.filter(r=>r.layer==='Outside six layers').length} companies outside the six layers</b> — retained in the database as frontier space, defence and sensing coverage rather than forced into an inaccurate bottleneck classification.</p>`; }
+  const dbSection=document.querySelector('#database'), caseSection=document.querySelector('#cynlr'); if(dbSection&&caseSection) caseSection.after(dbSection);
+  const table=document.querySelector('#research-table tbody'), count=document.querySelector('#db-count');
+  function render(){if(!table)return;const q=(document.querySelector('#db-search')?.value||'').toLowerCase(), decRaw=document.querySelector('#db-decision')?.value||'All', secRaw=document.querySelector('#db-sector')?.value||'All';const dec=decRaw.startsWith('All')?'All':decRaw, sec=secRaw.startsWith('All')?'All':secRaw;const out=rows.filter(r=>(!q||JSON.stringify(r).toLowerCase().includes(q))&&(dec==='All'||r.decision===dec)&&(sec==='All'||r.sector===sec));if(count)count.textContent=`${out.length} of ${rows.length} companies`;const visible=(q||dec!=='All'||sec!=='All')?out:out.slice(0,6);table.innerHTML=visible.map(r=>`<tr><td><b>${r.company}</b><small>${r.subsector}</small></td><td>${r.sector}</td><td>${r.stage}</td><td>${r.layer}</td><td><span class="decision ${r.decision.toLowerCase()}">${r.decision}</span></td><td>${r.trigger}</td><td>${r.killQuestion}</td><td>${r.sourceUrl?`<a href="${r.sourceUrl}" target="_blank" rel="noreferrer">${r.sourceId}</a>`:'—'}</td><td>${r.reviewed}</td></tr>`).join('');if(!document.querySelector('#db-expand')){const b=document.createElement('a');b.id='db-expand';b.className='button outline';b.href='view/universe.html';b.textContent='Explore all companies ↗';table.closest('.table-wrap').after(b);}}
+  document.querySelectorAll('[data-db-filter]').forEach(e=>e.addEventListener('input',render)); render();
 })();
