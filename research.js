@@ -5,7 +5,7 @@
     const term=norm(q('#db-search')?.value), stage=chosen(q('#db-stage')?.value), sector=chosen(q('#db-sector')?.value), geo=chosen(q('#db-geography')?.value);
     const out=rows.filter(r=>(!term||JSON.stringify(r).toLowerCase().includes(term))&&(stage==='All'||norm(r.stage).includes(norm(stage)))&&(sector==='All'||r.sector===sector)&&(geo==='All'||r.geography===geo));
     q('#db-count').textContent=`${out.length} of ${rows.length} companies`;
-    q('#research-table tbody').innerHTML=out.map(r=>`<tr><td><b>${r.company}</b><small>${r.subsector||''}</small></td><td>${r.stage}</td><td>${r.sector}</td><td>${r.geography||'—'}</td><td><span class="decision ${(r.decision||'Tracked').toLowerCase()}">${r.decision||'Tracked'}</span></td><td>${r.trigger||r.killQuestion||'Next customer, product or financing signal'}</td><td><a href="${r.sourceUrl||'#'}" target="_blank" rel="noreferrer">${r.sourceId||'—'} ↗</a></td></tr>`).join('');
+    q('#research-table tbody').innerHTML=out.map(r=>`<tr><td><b>${r.company}</b><small>${r.subsector||'Unknown'}</small></td><td>${r.verifiedStage||r.stage||'Unknown'}</td><td>${r.sector||'Unknown'}</td><td>${r.geography||'Unknown'}</td><td><span class="decision ${(r.assessment||'Investigate').toLowerCase()}">${r.assessment||'Investigate'}</span></td><td>${r.nextMilestone||r.trigger||'Unknown'}</td><td><a href="${r.stageSourceUrl||r.sourceUrl||'#'}" target="_blank" rel="noreferrer">${r.stageSourceId||r.sourceId||'—'} ↗</a></td></tr>`).join('');
   }
   document.querySelectorAll('[data-db-filter]').forEach(x=>x.addEventListener('input',render));
   if(rows.length){ render(); }
