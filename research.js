@@ -1,6 +1,6 @@
 (()=>{
   const q=s=>document.querySelector(s), norm=s=>(s||'').toLowerCase(), chosen=s=>(s||'').startsWith('All')?'All':s;
-  let rows=window.RESEARCH_UNIVERSE||[];
+  let allRows=window.RESEARCH_UNIVERSE||[],rows=allRows.filter(r=>/(seed|first round|undisclosed)/i.test(r.stage));
   function render(){
     const term=norm(q('#db-search')?.value), stage=chosen(q('#db-stage')?.value), sector=chosen(q('#db-sector')?.value), geo=chosen(q('#db-geography')?.value);
     const out=rows.filter(r=>(!term||JSON.stringify(r).toLowerCase().includes(term))&&(stage==='All'||norm(r.stage).includes(norm(stage)))&&(sector==='All'||r.sector===sector)&&(geo==='All'||r.geography===geo));
