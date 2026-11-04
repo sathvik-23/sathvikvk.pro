@@ -1,0 +1,16 @@
+.git
+.vercel
+*.bak
+*.pre-redesign
+!tools/build_public.cjs
+tools/build_portfolio.py
+tools/browser_checks.js
+tools/export_review.py
+tools/social_card.cjs
+tools/validate_portfolio.py
+dist
+output
+__pycache__
+**/*Defense*
+**/*private*
+**/*draft*

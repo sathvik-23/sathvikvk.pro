@@ -1,1 +1,7 @@
 .vercel
+*.bak
+*.pre-redesign
+.DS_Store
+output/
+__pycache__/
+dist/

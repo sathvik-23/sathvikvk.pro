@@ -1,962 +1,1691 @@
-[
-  {
-    "company": "Neysa",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI infra",
-    "subsector": "GPU cloud",
-    "stage": "Growth/control",
-    "funding": "~$50M pre-2026 + up to $600M",
-    "investors": "Blackstone, Nexus, Z47, NTTVC",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "AI Infrastructure & Inference",
-    "bottleneck": "AI Infrastructure & Inference",
-    "risk": "Token-price decline passes through to the company with no pricing power.",
-    "killQuestion": "Token-price decline passes through to the company with no pricing power.",
-    "trigger": "Gross-margin trend after GPU and inference costs; customer retention",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S28",
-    "sourceUrl": "https://www.blackstone.com/news/press-releases/blackstone-leads-funding-of-over-1-billion-to-neysa-to-work-towards-building-indias-leading-ai-infrastructure-platform/"
-  },
-  {
-    "company": "Yotta Data Services",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI infra",
-    "subsector": "Sovereign GPU cloud / DC",
-    "stage": "Pre-IPO",
-    "funding": "Group + debt",
-    "investors": "Hiranandani Group",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "AI Infrastructure & Inference",
-    "bottleneck": "AI Infrastructure & Inference",
-    "risk": "Token-price decline passes through to the company with no pricing power.",
-    "killQuestion": "Token-price decline passes through to the company with no pricing power.",
-    "trigger": "Gross-margin trend after GPU and inference costs; customer retention",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S29",
-    "sourceUrl": "https://www.dealstreetasia.com/stories/data-centre-operator-yotta-india-ipo-493935"
-  },
-  {
-    "company": "Ziroh Labs",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI infra",
-    "subsector": "CPU inference runtime",
-    "stage": "Undisclosed",
-    "funding": "UNKNOWN",
-    "investors": "IIT Madras partnership (non-equity)",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "AI Infrastructure & Inference",
-    "bottleneck": "AI Infrastructure & Inference",
-    "risk": "Token-price decline passes through to the company with no pricing power.",
-    "killQuestion": "Token-price decline passes through to the company with no pricing power.",
-    "trigger": "Gross-margin trend after GPU and inference costs; customer retention",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Simplismart",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI infra",
-    "subsector": "Inference optimisation",
-    "stage": "Series B",
-    "funding": "~$21M",
-    "investors": "Dallas VC, NVIDIA, Accel, Shastra",
-    "decision": "Pass",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "AI Infrastructure & Inference",
-    "bottleneck": "AI Infrastructure & Inference",
-    "risk": "Token-price decline passes through to the company with no pricing power.",
-    "killQuestion": "Token-price decline passes through to the company with no pricing power.",
-    "trigger": "Gross-margin trend after GPU and inference costs; customer retention",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S16",
-    "sourceUrl": "https://yourstory.com/2026/10/ai-startup-simplismart-14-million-dallas-venture-capital-nvidia-others"
-  },
-  {
-    "company": "TrueFoundry",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI infra",
-    "subsector": "LLMOps PaaS",
-    "stage": "Series A",
-    "funding": "~$21M",
-    "investors": "Intel Capital, Eniac, Peak XV",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Workflow, Security & Trusted Data",
-    "bottleneck": "Workflow, Security & Trusted Data",
-    "risk": "Token-price decline passes through to the company with no pricing power.",
-    "killQuestion": "Token-price decline passes through to the company with no pricing power.",
-    "trigger": "Gross-margin trend after GPU and inference costs; customer retention",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Sarvam AI",
-    "sector": "AI Infrastructure",
-    "sourceSector": "AI (models)",
-    "subsector": "Sovereign LLMs",
-    "stage": "Series B",
-    "funding": ">$275M",
-    "investors": "HCLTech, Bessemer, Khosla, Peak XV",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Workflow, Security & Trusted Data",
-    "bottleneck": "Workflow, Security & Trusted Data",
-    "risk": "Research credibility does not become durable commercial adoption.",
-    "killQuestion": "Research credibility does not become durable commercial adoption.",
-    "trigger": "Independent customer evidence beyond institutional partnership",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S30",
-    "sourceUrl": "https://www.medianama.com/2026/06/223-sarvam-raises-234-million-ai-unicorn-amid-anthropic-restrictions/"
-  },
-  {
-    "company": "QpiAI",
-    "sector": "AI Infrastructure",
-    "sourceSector": "Advanced computing",
-    "subsector": "Quantum + AI",
-    "stage": "Series A + debt",
-    "funding": "~$32M + debt",
-    "investors": "Avataar, National Quantum Mission",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "AI Infrastructure & Inference",
-    "bottleneck": "AI Infrastructure & Inference",
-    "risk": "Research credibility does not become durable commercial adoption.",
-    "killQuestion": "Research credibility does not become durable commercial adoption.",
-    "trigger": "Independent customer evidence beyond institutional partnership",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S48",
-    "sourceUrl": "https://ascendants.in/funding-feed/qpiai-raises-rs-50-cr-debt-innoven-capital-13-85-percent-coupon/"
-  },
-  {
-    "company": "C2i Semiconductors",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "AI data-centre power delivery",
-    "stage": "Series A",
-    "funding": "~$20.7M",
-    "investors": "Peak XV, TDK Ventures, Yali",
-    "decision": "Watch",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Power, Cooling & Energy",
-    "bottleneck": "Power, Cooling & Energy",
-    "risk": "First silicon slips or the design win cannot convert into production volume.",
-    "killQuestion": "First silicon slips or the design win cannot convert into production volume.",
-    "trigger": "Working silicon and credible OEM design-in",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S18",
-    "sourceUrl": "https://entrackr.com/news/semiconductor-startup-c2i-semiconductors-raises-15-mn-led-by-peak-xv-11110040"
-  },
-  {
-    "company": "Mindgrove Technologies",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "RISC-V MCU / IoT SoC",
-    "stage": "Series A",
-    "funding": "~$10.4M",
-    "investors": "Rocketship.vc, Speciale, Peak XV",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S44",
-    "sourceUrl": "https://inc42.com/company/mindgrove-technologies/financials/"
-  },
-  {
-    "company": "Netrasemi",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Edge-AI vision SoC",
-    "stage": "Series A",
-    "funding": "~₹117 Cr",
-    "investors": "Zoho, Unicorn India",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S43",
-    "sourceUrl": "https://entrackr.com/"
-  },
-  {
-    "company": "InCore Semiconductors",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "RISC-V processor IP",
-    "stage": "Seed",
-    "funding": "~$3M",
-    "investors": "Peak XV",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "AGNIT Semiconductors",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "GaN RF / power",
-    "stage": "Seed ext.",
-    "funding": "~$7.5M",
-    "investors": "Shastra VC, 3one4, Zephyr Peacock",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Power, Cooling & Energy",
-    "bottleneck": "Power, Cooling & Energy",
-    "risk": "First silicon slips or the design win cannot convert into production volume.",
-    "killQuestion": "First silicon slips or the design win cannot convert into production volume.",
-    "trigger": "Working silicon and credible OEM design-in",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "BigEndian Semiconductors",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Surveillance vision SoC",
-    "stage": "Pre-Series A",
-    "funding": "~$9M",
-    "investors": "IAN Alpha, Vertex, IvyCap",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Vervesemi",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Analog / mixed-signal",
-    "stage": "Series A",
-    "funding": "~$10.5M",
-    "investors": "Ashish Kacholia, Unicorn India",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Morphing Machines",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Reconfigurable compute",
-    "stage": "Series A",
-    "funding": "~₹100 Cr",
-    "investors": "IAN Alpha, Speciale, IvyCap",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "HrdWyr",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Edge AI SoC",
-    "stage": "Series A",
-    "funding": "~$13M+",
-    "investors": "Ideaspring, Singularity AMC, Persistent",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Calligo Technologies",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Posit HPC/AI chips",
-    "stage": "Raising Series A",
-    "funding": "~$1.1M",
-    "investors": "Seafund, Artha; BIG Capital (expected)",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "FermionIC Design",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "RF beamformers / SerDes",
-    "stage": "First round",
-    "funding": "~$2.5-6M",
-    "investors": "Ashish Kacholia",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Sensesemi Technologies",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "Edge-AI sensor SoC",
-    "stage": "Seed",
-    "funding": "~₹25 Cr",
-    "investors": "Piper Serica (lead)",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S52",
-    "sourceUrl": "https://indianstartupnews.com/funding/dli-approved-fabless-semiconductor-startup-sensesemi-technologies-raises-rs-25-crore-from-piper-serica-11022060"
-  },
-  {
-    "company": "Saankhya Labs",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "SDR / broadcast SoC",
-    "stage": "Acquired",
-    "funding": "n/a",
-    "investors": "Tejas Networks",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Networking, Memory & Data Movement",
-    "bottleneck": "Networking, Memory & Data Movement",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S54",
-    "sourceUrl": "https://tele.net.in/tejas-networks-acquires-62-65-per-cent-stake-in-saankhya-labs-for-rs-2-76-billion/"
-  },
-  {
-    "company": "Kaynes Semicon",
-    "sector": "Semiconductors",
-    "sourceSector": "Semis",
-    "subsector": "OSAT",
-    "stage": "Listed subsidiary",
-    "funding": "n/a",
-    "investors": "Kaynes Technology",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Semiconductors & Edge Compute",
-    "bottleneck": "Semiconductors & Edge Compute",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "CynLr",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Vision-led dexterous manipulation",
-    "stage": "Series A (raising B)",
-    "funding": "~$15.2M",
-    "investors": "Pavestone, Athera, Speciale, Info Edge",
-    "decision": "Proceed",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "killQuestion": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "trigger": "Pilot converts to production PO with measured uptime and payback",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S09",
-    "sourceUrl": "https://www.therobotreport.com/cynlr-raises-series-a-funding-to-realize-robot-vision-for-universal-factory/"
-  },
-  {
-    "company": "Ati Motors",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Autonomous industrial vehicles",
-    "stage": "Series B",
-    "funding": "~$41M",
-    "investors": "Walden Catalyst, NGP, True, Blume",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "killQuestion": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "trigger": "Pilot converts to production PO with measured uptime and payback",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S45",
-    "sourceUrl": "https://entrackr.com/"
-  },
-  {
-    "company": "Perceptyne",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Industrial dual-arm / humanoid",
-    "stage": "Seed",
-    "funding": "~$3.7M",
-    "investors": "Endiya, Yali",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Addverb",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Warehouse automation",
-    "stage": "Strategic-owned",
-    "funding": "n/m",
-    "investors": "Reliance",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Niqo Robotics",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Agri spot-spraying",
-    "stage": "Series B",
-    "funding": "~$21M",
-    "investors": "Brida, Fulcrum, Omnivore, Blume",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Haber",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Industrial AI",
-    "subsector": "Autonomous process control",
-    "stage": "Series C",
-    "funding": "~$70-109M",
-    "investors": "Creaegis, BEENEXT, Accel",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "killQuestion": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "trigger": "Pilot converts to production PO with measured uptime and payback",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Coratia Technologies",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics / defence",
-    "subsector": "Underwater ROVs",
-    "stage": "Seed / pre-A",
-    "funding": "~₹5 Cr",
-    "investors": "Piper Serica Angel Fund",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "GreyOrange",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Warehouse robotics",
-    "stage": "Series D",
-    "funding": ">$400M",
-    "investors": "—",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "killQuestion": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "trigger": "Pilot converts to production PO with measured uptime and payback",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Sastra Robotics",
-    "sector": "Physical AI & Robotics",
-    "sourceSector": "Robotics",
-    "subsector": "Robotic device testing",
-    "stage": "UNKNOWN",
-    "funding": "UNKNOWN",
-    "investors": "Angels",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Physical AI & Robotics",
-    "bottleneck": "Physical AI & Robotics",
-    "risk": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "killQuestion": "Deployment time, service burden or customer ROI blocks repeatable rollout.",
-    "trigger": "Pilot converts to production PO with measured uptime and payback",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Sisir Radar",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space / defence",
-    "subsector": "L/P-band SAR",
-    "stage": "Series A",
-    "funding": "~$8.5M",
-    "investors": "360 ONE, Shastra VC",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S46",
-    "sourceUrl": "https://yourstory.com/2025/12/sisir-radar-raises-7m-to-develop-private-l-band-sar-satellite"
-  },
-  {
-    "company": "GalaxEye",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "OptoSAR EO",
-    "stage": "Series A + debt",
-    "funding": ">$18.8M",
-    "investors": "Speciale, Mela, MGF-Kavachh, Infosys",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S47",
-    "sourceUrl": "https://www.drishtiias.com/state-pcs-current-affairs/galaxeye-launched-mission-drishti/print_manually"
-  },
-  {
-    "company": "Pixxel",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Hyperspectral EO",
-    "stage": "Series C",
-    "funding": "~$195M",
-    "investors": "Temasek, Seraphim, Google",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Digantara",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space / defence",
-    "subsector": "Space domain awareness",
-    "stage": "Series B",
-    "funding": "~$64.6M",
-    "investors": "360 ONE, SBI Inv. Japan, Peak XV",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Dhruva Space",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Satellite platforms",
-    "stage": "Pre-Series B",
-    "funding": "~$24M + grant",
-    "investors": "IAN Alpha, Blue Ashva",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Bellatrix Aerospace",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Satellite propulsion",
-    "stage": "Pre-Series B",
-    "funding": "~$30M+",
-    "investors": "Cactus Partners, Pavestone",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "EtherealX",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Reusable launch",
-    "stage": "Series A",
-    "funding": "~$25.5M",
-    "investors": "BIG Capital, TDK Ventures, Accel",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Skyroot Aerospace",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Small-lift launch",
-    "stage": "Late stage",
-    "funding": "~$160M",
-    "investors": "GIC, Sherpalo",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Agnikul Cosmos",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "3D-printed engines / launch",
-    "stage": "Late stage",
-    "funding": ">$60M est.",
-    "investors": "Celesta, HDFC Bank",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Astrogate Labs",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "Laser comms terminals",
-    "stage": "Pre-Series A",
-    "funding": "~$1.5-2M",
-    "investors": "Piper Serica, Speciale",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Networking, Memory & Data Movement",
-    "bottleneck": "Networking, Memory & Data Movement",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Xovian Aerospace",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Space",
-    "subsector": "RF-intelligence satellites",
-    "stage": "Seed",
-    "funding": "~$4.5M+",
-    "investors": "Piper Serica, Ashish Kacholia",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Capital intensity and procurement cycles outrun financing capacity.",
-    "killQuestion": "Capital intensity and procurement cycles outrun financing capacity.",
-    "trigger": "First paid mission or repeatable government / export contract",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Big Bang Boom Solutions",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence",
-    "subsector": "Counter-drone, armour",
-    "stage": "Growth",
-    "funding": "~$31M",
-    "investors": "Mumbai Angels, family offices",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "NewSpace Research & Tech.",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence",
-    "subsector": "Swarm UAS / HAPS",
-    "stage": "Growth",
-    "funding": "~$75M+",
-    "investors": "Pavestone, 360 ONE",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "killQuestion": "No evidence of repeatable commercial demand or defensible technical advantage.",
-    "trigger": "Next disclosed customer, product or financing signal",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Raphe mPhibr",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence",
-    "subsector": "Military UAVs",
-    "stage": "Series B",
-    "funding": "~$145M",
-    "investors": "General Catalyst",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Zuppa Geo Navigation",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence",
-    "subsector": "Drone autopilots",
-    "stage": "Bridge",
-    "funding": "Small",
-    "investors": "Angels",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "Tonbo Imaging",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence electronics",
-    "subsector": "Thermal imaging, seekers",
-    "stage": "Pre-IPO",
-    "funding": "UNKNOWN",
-    "investors": "Qualcomm Ventures, Artiman",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "S42",
-    "sourceUrl": "https://www.business-standard.com/"
-  },
-  {
-    "company": "Data Patterns (listed)",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Defence electronics",
-    "subsector": "Radar, EW, avionics",
-    "stage": "Listed",
-    "funding": "—",
-    "investors": "Public",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  },
-  {
-    "company": "ideaForge (listed)",
-    "sector": "Space, Defence & Sensing",
-    "sourceSector": "Drones",
-    "subsector": "Military / enterprise UAV",
-    "stage": "Listed",
-    "funding": "—",
-    "investors": "Public",
-    "decision": "Tracked",
-    "confidence": "Public-source",
-    "geography": "India",
-    "layer": "Outside six layers",
-    "bottleneck": "Outside six layers",
-    "risk": "Single-customer concentration prevents a venture-scale outcome.",
-    "killQuestion": "Single-customer concentration prevents a venture-scale outcome.",
-    "trigger": "Repeat procurement beyond one sovereign customer",
-    "reviewed": "2 Nov 2026",
-    "sourceId": "Research universe",
-    "sourceUrl": ""
-  }
-]
+{
+  "schemaVersion": "3.0",
+  "asOf": "2026-11-04",
+  "stageConvention": "Round history records located public announcements, not current capitalization or a complete financing history. Labels are normalized only from explicit source language; no amount, company age, first-round status or undisclosed financing implies stage. Later-financing searches were reviewed on 2026-11-04 but cannot exclude private or unannounced rounds. editorialStatus=published clears factual research only, not an investment recommendation or confirmed current financing stage. verification_hold records are excluded from published eligible counts.",
+  "records": [
+    {
+      "id": "in-nudgebee",
+      "name": "NudgeBee",
+      "website": "https://nudgebee.com/",
+      "theme": "context",
+      "product": "Company-described cloud-operations agents that combine infrastructure context with governed actions.",
+      "buyer": "Inferred buyer: SRE, platform, CloudOps and FinOps leaders.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2026-04",
+          "datePrecision": "month",
+          "amount": 3000000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 3000000,
+              "currency": "USD",
+              "sourceIds": [
+                "nudgebee-seed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "nudgebee-seed"
+          ]
+        }
+      ],
+      "hq": {
+        "city": "Pune",
+        "country": "India",
+        "evidenceType": "company_claim"
+      },
+      "operatingLocations": [
+        {
+          "city": "Pune",
+          "country": "India",
+          "locationType": "headquarters",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "nudgebee-seed"
+          ]
+        }
+      ],
+      "regions": [
+        "India"
+      ],
+      "regionRationale": "India membership follows the explicit Pune headquarters statement, not customer locations.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Funding publication gives April 2026; page updated October 2026.",
+        "Context embedded in cloud operations is adjacent to standalone memory infrastructure.",
+        "Customer outcomes and deployment claims have not been independently tested."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Read company announcement explicitly labels the located financing seed; later-financing search found no substantiated later round.",
+      "evidence": "Company announcement supports the round and describes a live infrastructure graph plus approval-gated operations [nudgebee-seed].",
+      "alternatives": "Inferred alternatives: observability plus engineer-written runbooks, cloud-native automation and an internal SRE agent.",
+      "risk": "Inferred risk: stale topology can turn a plausible diagnosis into an unsafe infrastructure change.",
+      "nextEvidence": "Proposed diligence: replay topology changes and permission revocations; inspect action logs, approval boundaries and rollback behavior.",
+      "sources": [
+        {
+          "id": "nudgebee-seed",
+          "title": "NudgeBee Raises $3M Seed Led by Kalaari Capital",
+          "url": "https://www.nudgebee.com/resources/blog/nudgebee-raises-3m-seed-led-by-kalaari-capital",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "in-superbryn",
+      "name": "SuperBryn",
+      "website": "https://superbryn.com/",
+      "theme": "deployment",
+      "product": "Company-described voice-agent evaluations, production observability and failure diagnosis.",
+      "buyer": "Inferred buyer: engineering and quality leaders responsible for production voice agents.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2025-12",
+          "datePrecision": "month",
+          "amount": 1200000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 1200000,
+              "currency": "USD",
+              "sourceIds": [
+                "superbryn-investor-2025"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "superbryn-investor-2025"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Bengaluru",
+          "country": "India",
+          "locationType": "operating_office",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "superbryn-office"
+          ]
+        }
+      ],
+      "regions": [
+        "India"
+      ],
+      "regionRationale": "Company hiring post explicitly identifies a Bengaluru office. Global and legal headquarters remain unknown.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "December 2025 investor newsletter establishes round month; its December 23 publication is not a precise round-close date.",
+        "April 28, 2026 investor retrospective reiterates pre-seed participation; it is not evidence of another round.",
+        "Self-learning and multi-model routing remain marked coming soon on the reviewed product page."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": "Investigate",
+      "editorialStatus": "published",
+      "eligibilityReason": "Investor confirms explicit pre-seed financing; bounded later-round search did not establish a new financing.",
+      "evidence": "Investor states $1.2M pre-seed; current company site distinguishes evaluations from roadmap capabilities [superbryn-investor-2025; superbryn-product].",
+      "alternatives": "Inferred alternatives: manual call review, voice-platform testing and an internal evaluation harness.",
+      "risk": "Inferred risk: synthetic scores may miss accent, noise and code-switching failures that matter to callers.",
+      "nextEvidence": "Proposed diligence: compare scores with blinded human labels on held-out calls; verify shipped features and review time saved.",
+      "sources": [
+        {
+          "id": "superbryn-investor-2025",
+          "title": "Kalaari: 2025, A Year of Builders, Breakthroughs, and Belief",
+          "url": "https://kalaari.substack.com/p/2025-a-year-of-builders-breakthroughs",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "superbryn-investor-2026",
+          "title": "Kalaari: Why We Invested in SuperBryn",
+          "url": "https://kalaari.com/insights-from-the-fronlines/why-we-invested-in-superbryn-2",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "superbryn-product",
+          "title": "SuperBryn: Voice AI Reliability Platform",
+          "url": "https://superbryn.com/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "superbryn-office",
+          "title": "SuperBryn hiring post: Bengaluru office",
+          "url": "https://www.linkedin.com/posts/superbryn_hiring-voiceai-artificialintelligence-activity-7473675783669080065-aIkg",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "published",
+      "screenUrl": "screens/superbryn.html"
+    },
+    {
+      "id": "in-neurofin",
+      "name": "Neurofin",
+      "website": "https://neurofin.ai/",
+      "theme": "workflows",
+      "product": "Company-described banking document checks, fraud review, audit and compliance automation.",
+      "buyer": "Inferred buyer: lending operations and compliance leaders at banks and non-bank lenders.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2025-07-10",
+          "datePrecision": "day",
+          "amount": 1600000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 1600000,
+              "currency": "USD",
+              "sourceIds": [
+                "neurofin-seed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "neurofin-seed"
+          ]
+        }
+      ],
+      "hq": {
+        "city": "Bengaluru",
+        "country": "India",
+        "evidenceType": "company_claim"
+      },
+      "operatingLocations": [
+        {
+          "city": "Bengaluru",
+          "country": "India",
+          "locationType": "headquarters",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "neurofin-seed"
+          ]
+        }
+      ],
+      "regions": [
+        "India"
+      ],
+      "regionRationale": "Company announcement explicitly identifies Bangalore headquarters; Bengaluru is the normalized city name.",
+      "conflicts": [
+        {
+          "field": "roundHistory.announcementDate",
+          "status": "unresolved_event_definition",
+          "claims": [
+            {
+              "value": "2025-07-10",
+              "meaning": "Company announcement",
+              "sourceIds": [
+                "neurofin-seed"
+              ]
+            },
+            {
+              "value": "2025-06-09",
+              "meaning": "Secondary table funding date; page also refers to June 10",
+              "sourceIds": [
+                "neurofin-secondary-date"
+              ]
+            }
+          ],
+          "resolution": "Retain the explicit company announcement date; do not infer closing date or a second round."
+        }
+      ],
+      "qualificationNotes": [
+        "Company announcement date is retained as announcement date, not legal closing date.",
+        "Named customers, processing-speed claims and revenue ambition remain company claims; the FY26 target is not actual revenue.",
+        "Similar-name NeuralFin financing results concern a different company."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": "Investigate",
+      "editorialStatus": "published",
+      "eligibilityReason": "Explicit seed announcement reopened; no substantiated later financing located. Secondary June date does not override the dated July company announcement.",
+      "evidence": "Company discloses a $1.6M seed and banking-document automation [neurofin-seed]. Inc42 gives a June funding date, which may measure a different event [neurofin-secondary-date].",
+      "alternatives": "Inferred alternatives: bank analysts, document-processing software, rules-based checks and outsourced operations.",
+      "risk": "Inferred risk: apparently complete files may conceal material fraud or compliance defects while leaving expensive review work.",
+      "nextEvidence": "Proposed diligence: use a blinded labelled document set; measure material misses, exception auditability and human minutes per file.",
+      "sources": [
+        {
+          "id": "neurofin-seed",
+          "title": "Neurofin Raises $1.6M Seed Round Led by UNLEASH Capital",
+          "url": "https://neurofin.ai/blog/neurofin-seed-funding",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "neurofin-secondary-date",
+          "title": "Inc42: Neurofin AI Technologies funding",
+          "url": "https://inc42.com/company/neurofin-ai-technologies/funding/",
+          "type": "secondary_report",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "published",
+      "screenUrl": "screens/neurofin.html"
+    },
+    {
+      "id": "in-bolna",
+      "name": "Bolna",
+      "website": "https://www.bolna.ai/",
+      "theme": "workflows",
+      "product": "Company-described self-serve platform to build, deploy and monitor multilingual telephone agents.",
+      "buyer": "Inferred buyer: enterprise customer-operations teams and developers automating Indian-language calls.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2026-01",
+          "datePrecision": "month",
+          "amount": 6300000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 6300000,
+              "currency": "USD",
+              "sourceIds": [
+                "bolna-seed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "bolna-seed"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Bengaluru",
+          "country": "India",
+          "locationType": "operating_base",
+          "evidenceType": "company_announcement",
+          "sourceIds": [
+            "bolna-seed"
+          ]
+        }
+      ],
+      "regions": [
+        "India"
+      ],
+      "regionRationale": "Company describes Bolna as Bengaluru-based. That supports an operating base, not a separately verified legal headquarters.",
+      "conflicts": [
+        {
+          "field": "roundHistory.announcementDate",
+          "status": "unresolved",
+          "claims": [
+            {
+              "value": "2026-01-20",
+              "meaning": "Page header",
+              "sourceIds": [
+                "bolna-seed"
+              ]
+            },
+            {
+              "value": "2026-01-21",
+              "meaning": "Bengaluru dateline",
+              "sourceIds": [
+                "bolna-seed"
+              ]
+            }
+          ],
+          "resolution": "Use 2026-01 with month precision; do not silently select one day."
+        }
+      ],
+      "qualificationNotes": [
+        "Exact January announcement day is disputed within the same page; retain month precision.",
+        "Usage and paying-customer figures are company-reported and are not independent traction verification.",
+        "Earlier YC funding is mentioned but this register does not reconstruct complete capitalization."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Company explicitly announces seed financing. Day discrepancy is preserved without changing the agreed round month or stage.",
+      "evidence": "Release discloses $6.3M seed and a multilingual orchestration product [bolna-seed].",
+      "alternatives": "Inferred alternatives: human call teams, IVR, direct voice-model integration and competing voice-agent platforms.",
+      "risk": "Inferred risk: telephony, inference, onboarding and escalation costs can overwhelm per-call revenue.",
+      "nextEvidence": "Proposed diligence: inspect one retained workflow cohort and calculate margin after retries, integrations and human handoffs.",
+      "sources": [
+        {
+          "id": "bolna-seed",
+          "title": "Bolna bags $6.3 million seed funding led by General Catalyst",
+          "url": "https://www.bolna.ai/newsroom/bolna-bags-63-million-seed-funding-led-by-general-catalyst-to-build-indias-voice-ai-platform",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "ae-metisjean",
+      "name": "MetisJean",
+      "website": "https://metisjean.com/",
+      "theme": "deployment",
+      "product": "Company-described Jean enterprise intelligence system with customer-controlled deployment, context and governance.",
+      "buyer": "Inferred buyer: regulated enterprise and government technology, security and operations leaders.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2026-10-01",
+          "datePrecision": "day",
+          "amount": 3000000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 3000000,
+              "currency": "USD",
+              "sourceIds": [
+                "metisjean-release"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "metisjean-release"
+          ]
+        }
+      ],
+      "hq": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "evidenceType": "company_announcement"
+      },
+      "operatingLocations": [
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "locationType": "headquarters",
+          "evidenceType": "company_announcement",
+          "sourceIds": [
+            "metisjean-release"
+          ]
+        }
+      ],
+      "regions": [
+        "UAE"
+      ],
+      "regionRationale": "Launch release explicitly states Dubai headquarters, corroborated as a Dubai base on the company about page.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Release discloses prior pre-seed funding on October 1; financing close date is unknown.",
+        "The separate $5M fundraising intention is not a closed financing.",
+        "Release is syndicated company material; its controlled benchmark and absolute correctness claims are unverified.",
+        "Current about page acknowledges continued use of frontier models; do not imply zero external dependency."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Recent company-issued disclosure explicitly identifies completed pre-seed funding; no substantiated later completed round located.",
+      "evidence": "Launch release states $3M pre-seed; company about page describes an enterprise graph and governance gateway [metisjean-release; metisjean-about].",
+      "alternatives": "Inferred alternatives: customer-hosted retrieval with policy controls, enterprise copilots and a systems integrator.",
+      "risk": "Inferred risk: custom ontology and deployment work may behave like services; controlled hosting alone does not ensure correct answers.",
+      "nextEvidence": "Proposed diligence: test changing policies, denied retrieval and abstention against ground truth; inspect implementation hours and model routing.",
+      "sources": [
+        {
+          "id": "metisjean-release",
+          "title": "MetisJean launches sovereign AI in the UAE: company-issued launch release",
+          "url": "https://uaenews247.com/2026/10/01/uae-startup-metisjean-launches-to-deliver-sovereign-ai-to-nations-public-and-private-sector/",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "metisjean-about",
+          "title": "MetisJean: Sovereign AI, built in Dubai",
+          "url": "https://metisjean.com/about/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "ae-avelin",
+      "name": "AVELIN AI",
+      "website": "https://avelin.ai/",
+      "theme": "deployment",
+      "product": "Company-described model routing and a sovereign inference platform for customer GPU infrastructure.",
+      "buyer": "Inferred buyer: enterprise AI platform, security and infrastructure leaders in regulated organizations.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2026-07-09",
+          "datePrecision": "day",
+          "amount": 3700000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 3700000,
+              "currency": "USD",
+              "sourceIds": [
+                "avelin-release"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "avelin-release"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "locationType": "office_and_contracting_entity",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "avelin-contact"
+          ]
+        },
+        {
+          "city": null,
+          "country": "United States",
+          "locationType": "operating_presence",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "avelin-contact"
+          ]
+        }
+      ],
+      "regions": [
+        "UAE",
+        "USA"
+      ],
+      "regionRationale": "Company contact page explicitly lists Dubai and US operations. UAE and USA membership reflects operations; a Dubai contracting entity is not proof of global headquarters.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Funding is a third-party-hosted company press release, not independent Reuters editorial verification.",
+        "Release date comes from the dated syndicated URL; closing date is unknown and angel investors are unnamed.",
+        "Current company profile emphasizes routing and sovereign inference; reported benchmark runs are not independent workload validation.",
+        "Company contact page does not explicitly identify global HQ, so hq remains null."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Read syndicated company release explicitly labels completed pre-seed; no substantiated later financing located.",
+      "evidence": "Release states $3.7M pre-seed; current company page describes task routing and customer-GPU inference [avelin-release; avelin-company].",
+      "alternatives": "Inferred alternatives: direct model APIs, self-hosted open-weight models and a gateway with simple routing rules.",
+      "risk": "Inferred risk: routing can lower token spend while reducing task success or violating residency constraints.",
+      "nextEvidence": "Proposed diligence: benchmark identical customer tasks against fixed-model and simple-router baselines, including failures, latency and data routes.",
+      "sources": [
+        {
+          "id": "avelin-release",
+          "title": "ZAWYA: AVELIN AI raises $3.7mln in pre-seed funding (syndicated press release)",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026-07-09%3Anewsml_Zaw22vLpg%3A0-zawya-avelin-ai-raises-3-7mln-in-pre-seed-funding-to-accelerate-sovereign-ai-infrastructure-for-enterprises-and-governments/",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "avelin-company",
+          "title": "AVELIN: company and product profile",
+          "url": "https://avelin.ai/company",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "avelin-contact",
+          "title": "AVELIN: offices and Dubai contracting entity",
+          "url": "https://avelin.ai/contact",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "ae-qanooni",
+      "name": "Qanooni",
+      "website": "https://qanooni.ai/",
+      "theme": "workflows",
+      "product": "Company-described legal matter context, drafting, review and research within law-firm workflows.",
+      "buyer": "Inferred buyer: law-firm practice leaders, knowledge teams and legal technology owners.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2025-06",
+          "datePrecision": "month",
+          "amount": 2000000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 2000000,
+              "currency": "USD",
+              "sourceIds": [
+                "qanooni-news"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "qanooni-news"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "locationType": "legal_place_of_business",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "qanooni-terms"
+          ]
+        }
+      ],
+      "regions": [
+        "UAE"
+      ],
+      "regionRationale": "Company terms identify a DIFC entity and Dubai place of business. This is legal-place evidence, not a verified global headquarters or proof of a UK office.",
+      "conflicts": [
+        {
+          "field": "roundHistory.announcementDate",
+          "status": "unresolved",
+          "claims": [
+            {
+              "value": "2025-06",
+              "meaning": "Company newsroom funding month",
+              "sourceIds": [
+                "qanooni-news"
+              ]
+            },
+            {
+              "value": "2026-06-07",
+              "meaning": "Secondary funding-date field; article updated June 8, 2026",
+              "sourceIds": [
+                "qanooni-secondary-2026"
+              ]
+            }
+          ],
+          "resolution": "Preserve the primary announcement as historical; hold eligibility and do not sum as separate rounds."
+        }
+      ],
+      "qualificationNotes": [
+        "Company newsroom dates $2M pre-seed June 2025; secondary entry assigns June 2026.",
+        "Company terms are self-published legal terms, not an independently inspected registry record.",
+        "UK customers and partnerships do not by themselves establish UK operations."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Required hold: competing financing dates remain unreconciled; no primary confirmation of a separate June 2026 round.",
+      "evidence": "Newsroom labels June 2025 funding; the secondary page instead gives June 2026 financing [qanooni-news; qanooni-secondary-2026].",
+      "alternatives": "Inferred alternatives: legal researchers and associates, document templates, Microsoft workflow tools and specialist legal AI.",
+      "risk": "Inferred risk: persistent matter context can expose privileged information across clients or retain superseded legal material.",
+      "nextEvidence": "Proposed diligence: reconcile financing with company or investor; test client isolation, permission changes and lawyer-reviewed citation accuracy.",
+      "sources": [
+        {
+          "id": "qanooni-news",
+          "title": "Qanooni newsroom: June 2025 funding entry",
+          "url": "https://qanooni.ai/news",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "qanooni-terms",
+          "title": "Qanooni website terms: DIFC entity and place of business",
+          "url": "https://qanooni.ai/terms/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "qanooni-secondary-2026",
+          "title": "The SaaS News: Qanooni AI Raises $2M Pre-seed",
+          "url": "https://www.thesaasnews.com/news/qanooni-ai-raises-2m-pre-seed/",
+          "type": "secondary_report",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "ae-taxstar",
+      "name": "Tax Star",
+      "website": "https://www.taxstar.app/",
+      "theme": "workflows",
+      "product": "Company-described corporate-tax and e-invoicing workflows with accounting-system integrations.",
+      "buyer": "Inferred buyer: SME finance teams, CFOs and accounting practices serving UAE entities.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2026-08",
+          "datePrecision": "month",
+          "amount": 1750000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 1750000,
+              "currency": "USD",
+              "sourceIds": [
+                "taxstar-release",
+                "taxstar-corporate-news"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "taxstar-release",
+            "taxstar-corporate-news"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "locationType": "contact_address",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "taxstar-product"
+          ]
+        }
+      ],
+      "regions": [
+        "UAE"
+      ],
+      "regionRationale": "Product site lists a Meydan, Dubai contact address. Headquarters is not inferred from that address; serving KSA customers is not a Saudi operating office.",
+      "conflicts": [
+        {
+          "field": "roundHistory.announcementDate",
+          "status": "publication_dates_differ",
+          "claims": [
+            {
+              "value": "2026-08-17",
+              "meaning": "Gulf News Corporate News publication/update",
+              "sourceIds": [
+                "taxstar-corporate-news"
+              ]
+            },
+            {
+              "value": "2026-08-18",
+              "meaning": "Wamda release publication",
+              "sourceIds": [
+                "taxstar-release"
+              ]
+            }
+          ],
+          "resolution": "Retain month precision; these may be publication dates for the same announcement, not separate financings."
+        }
+      ],
+      "qualificationNotes": [
+        "Gulf News Corporate News is dated August 17; Wamda republishes the release August 18. Closing date is unknown.",
+        "Wamda explicitly labels the body a press release; the two publications are not independent corroboration.",
+        "AI depth and current ASP accreditation are company representations; no government register was inspected."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Company-issued seed disclosure is readable in two publications; no substantiated later round located.",
+      "evidence": "Release states $1.75M seed. Site shows invoice validation, mapping and review workflows [taxstar-release; taxstar-product].",
+      "alternatives": "Inferred alternatives: accountants, rules-based tax software, ERP integrations and other e-invoicing providers.",
+      "risk": "Inferred risk: mandatory compliance can create demand without creating proprietary AI value, while review and liability remain costly.",
+      "nextEvidence": "Proposed diligence: trace a filed or transmitted invoice end to end; verify accreditation directly and isolate AI's contribution to accountant time saved.",
+      "sources": [
+        {
+          "id": "taxstar-release",
+          "title": "Wamda: Tax Star closes $1.75 million Seed round (press release)",
+          "url": "https://www.wamda.com/index.php/ar/2026/08/tax-star-closes-1-75-million-seed-round-expand-gcc",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "taxstar-corporate-news",
+          "title": "Gulf News Corporate News: Tax Star raises $1.75m seed round",
+          "url": "https://gulfnews.com/amp/story/business%2Fcorporate-news%2Ftax-star-raises-175m-seed-round-to-scale-as-a-pre-approved-accredited-service-provider-for-uae-e-invoicing-1.500643578",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "taxstar-product",
+          "title": "Tax Star: product and Dubai contact address",
+          "url": "https://www.taxstar.app/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "eu-qontext",
+      "name": "Qontext",
+      "website": "https://qontext.ai/",
+      "theme": "context",
+      "product": "Company-described reusable context layer shared across enterprise AI tools and workflows.",
+      "buyer": "Inferred buyer: enterprise AI platform owners and teams deploying agents across functions.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2026-02-05",
+          "datePrecision": "day",
+          "amount": 2700000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 2700000,
+              "currency": "USD",
+              "sourceIds": [
+                "qontext-preseed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "qontext-preseed"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "locationType": "company_base",
+          "evidenceType": "company_announcement",
+          "sourceIds": [
+            "qontext-preseed"
+          ]
+        }
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "regionRationale": "Company announcement is Berlin-datelined and identifies the company base. No legal or global HQ assertion is inferred.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Company-reported production use and automation improvement have not been independently established.",
+        "Investor quotations hosted by the company are interested-party statements.",
+        "Context platform is distinct from evidence that customers pay for a separate context budget."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": "Investigate",
+      "editorialStatus": "published",
+      "eligibilityReason": "Reopened company announcement explicitly labels pre-seed; no substantiated later financing located.",
+      "evidence": "Announcement supports $2.7M pre-seed led by HV Capital and describes governed reusable business context [qontext-preseed].",
+      "alternatives": "Inferred alternatives: native application context, a vector-search retrieval pipeline and an internally maintained knowledge layer.",
+      "risk": "Inferred risk: permission synchronization and stale facts can erase the advantage of a shared context system.",
+      "nextEvidence": "Proposed diligence: compare native context, simple retrieval and Qontext on held-out tasks with changing facts and access rights.",
+      "sources": [
+        {
+          "id": "qontext-preseed",
+          "title": "Qontext raises $2.7M to build the context layer for AI",
+          "url": "https://qontext.ai/blog/pre-seed",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "published",
+      "screenUrl": "screens/qontext.html"
+    },
+    {
+      "id": "eu-zaro",
+      "name": "Zaro",
+      "website": "https://zaro.ai/",
+      "theme": "context",
+      "product": "Investor-described shared company memory read and updated by AI agents.",
+      "buyer": "Inferred buyer: companies coordinating multiple agents across internal knowledge and workflows.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2026-06-09",
+          "datePrecision": "day",
+          "amount": 5100000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 5100000,
+              "currency": "USD",
+              "sourceIds": [
+                "zaro-investor",
+                "zaro-location"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "zaro-investor",
+            "zaro-location"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "locationType": "company_base",
+          "evidenceType": "investor_claim",
+          "sourceIds": [
+            "zaro-location"
+          ]
+        }
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "regionRationale": "Investor portfolio record explicitly gives London. Europe includes the UK; this location label is not a verified HQ assertion.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Round announcement date is taken from the dated story link in Cherry's portfolio record.",
+        "Cherry's internal usage account is an interested-party report, not independent customer verification.",
+        "Do not attribute prior-employer revenue to Zaro."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Investor explicitly labels $5.1M pre-seed; no substantiated later financing located.",
+      "evidence": "Cherry describes both the financing and its own use of shared memory; the portfolio entry supports London and June 9 [zaro-investor; zaro-location].",
+      "alternatives": "Inferred alternatives: a shared document store, application-specific memory and an internal agent knowledge service.",
+      "risk": "Inferred risk: erroneous writes from one agent can contaminate subsequent agents' decisions.",
+      "nextEvidence": "Proposed diligence: test conflicting concurrent writes, provenance, correction and rollback; interview a customer unrelated to the investor.",
+      "sources": [
+        {
+          "id": "zaro-investor",
+          "title": "Cherry Ventures: Shared Memory for AI Agents",
+          "url": "https://cherry.vc/news/shared-memory-for-ai-agents",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "zaro-location",
+          "title": "Cherry Ventures: Zaro portfolio profile",
+          "url": "https://cherry.vc/founder-companies/zaro",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "eu-cognee",
+      "name": "Cognee",
+      "website": "https://www.cognee.ai/",
+      "theme": "context",
+      "product": "Company-described open-source graph and vector memory infrastructure for AI agents.",
+      "buyer": "Inferred buyer: AI application engineers and enterprise teams building knowledge-intensive agents.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed (company and investor); Series A (secondary database)",
+          "normalizedStage": null,
+          "announcementDate": "2026-02-19",
+          "datePrecision": "day",
+          "amount": 7500000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 7500000,
+              "currency": "USD",
+              "sourceIds": [
+                "cognee-seed",
+                "cognee-investor"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "cognee-seed",
+            "cognee-investor"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "locationType": "company_base",
+          "evidenceType": "investor_claim",
+          "sourceIds": [
+            "cognee-investor"
+          ]
+        }
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "regionRationale": "Investor identifies Berlin; the company says it started there. Legal and global headquarters are not separately established.",
+      "conflicts": [
+        {
+          "field": "roundHistory.normalizedStage",
+          "status": "unresolved",
+          "claims": [
+            {
+              "value": "Seed",
+              "sourceIds": [
+                "cognee-seed",
+                "cognee-investor"
+              ]
+            },
+            {
+              "value": "Series A",
+              "sourceIds": [
+                "cognee-stage-conflict"
+              ]
+            }
+          ],
+          "resolution": "Retain conflicting original labels; do not normalize to an unambiguous seed or admit to eligible counts."
+        }
+      ],
+      "qualificationNotes": [
+        "Company announcement updated September 3, 2026; its original announcement date remains February 19.",
+        "Combination Ventures also calls the 2026 financing seed, but Dealroom still calls it Series A.",
+        "Earlier 2024 financing exists; no complete round history or capitalization is asserted."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Required hold: primary and investor seed labels conflict with secondary Series A classification. Normalized stage remains null.",
+      "evidence": "Company and investor support $7.5M and a graph-based memory product; secondary stage classification remains inconsistent [cognee-seed; cognee-investor; cognee-stage-conflict].",
+      "alternatives": "Inferred alternatives: a simpler retrieval pipeline, direct graph/vector databases and other memory frameworks.",
+      "risk": "Inferred risk: graph construction and refinement add ingestion cost without improving customer task outcomes enough to pay for them.",
+      "nextEvidence": "Proposed diligence: reconcile the financing label; compare task accuracy, latency and total cost with simpler retrieval on customer-owned data.",
+      "sources": [
+        {
+          "id": "cognee-seed",
+          "title": "Cognee Raises $7.5M Seed to Build Memory for AI Agents",
+          "url": "https://www.cognee.ai/cognee-raises-seven-million-five-hundred-thousand-dollars-seed",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "cognee-investor",
+          "title": "Combination Ventures: Cognee portfolio profile",
+          "url": "https://www.combination.vc/companies/cognee",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "cognee-stage-conflict",
+          "title": "Dealroom: Cognee funding table",
+          "url": "https://app.dealroom.co/companies/cognee",
+          "type": "secondary_report",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "eu-langwatch",
+      "name": "LangWatch",
+      "website": "https://langwatch.ai/",
+      "theme": "deployment",
+      "product": "Company-described evaluations, tracing, agent simulation and optimization for AI applications.",
+      "buyer": "Inferred buyer: AI engineering, product and quality teams owning production reliability.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2025-02-25",
+          "datePrecision": "day",
+          "amount": 1000000,
+          "currency": "EUR",
+          "amountClaims": [
+            {
+              "amount": 1000000,
+              "currency": "EUR",
+              "sourceIds": [
+                "langwatch-preseed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "langwatch-preseed"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "locationType": "registered_office",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "langwatch-terms"
+          ]
+        }
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "regionRationale": "Company terms identify an Amsterdam registered office. This supports a legal regional connection, not a full operating footprint or verified HQ.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Original financing announcement is over 20 months old at review.",
+        "A later-round search returned the historic round and current product pages, not fresh primary stage confirmation.",
+        "Customer speed and quality gains remain company claims; current menus describe a wider product than the 2025 announcement."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Historical pre-seed is verified, but no fresh stage confirmation was found; exclude from strict current early-stage counts pending refresh.",
+      "evidence": "Company announcement supports €1M pre-seed; updated terms establish an Amsterdam registered office, not a current financing stage [langwatch-preseed; langwatch-terms].",
+      "alternatives": "Inferred alternatives: manual regression sets, an internal tracing harness and evaluations included in observability platforms.",
+      "risk": "Inferred risk: a broad evaluation suite may face bundled competition while requiring substantial customer-specific test maintenance.",
+      "nextEvidence": "Proposed diligence: obtain current financing confirmation; measure escaped defects and test-maintenance effort before and after adoption.",
+      "sources": [
+        {
+          "id": "langwatch-preseed",
+          "title": "LangWatch announces €1M pre-seed funding",
+          "url": "https://langwatch.ai/blog/langwatch-ai-announcing-1m-funding-round-to-bring-the-power-of-evaluations-to-ai-teams",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "langwatch-terms",
+          "title": "LangWatch: terms and Amsterdam registered office",
+          "url": "https://langwatch.ai/legal/terms-conditions",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "eu-telli",
+      "name": "telli",
+      "website": "https://www.telli.com/",
+      "theme": "workflows",
+      "product": "Company-described AI telephone agents and customer-operations workflows for B2C businesses.",
+      "buyer": "Inferred buyer: B2C sales, support and customer-operations leaders.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2026-07-23",
+          "datePrecision": "day",
+          "amount": 15000000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 15000000,
+              "currency": "USD",
+              "sourceIds": [
+                "telli-counsel"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "telli-counsel"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "locationType": "company_base",
+          "evidenceType": "legal_record",
+          "sourceIds": [
+            "telli-counsel"
+          ]
+        }
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "regionRationale": "Financing counsel describes telli as Berlin-based. This establishes a company base, not a verified registered or global headquarters.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Company announcement URL timed out during review; it is logged unavailable and does not support this record's financing verification.",
+        "Financing counsel reports a $15M round and $18.5M cumulative funding; these must not be interchanged.",
+        "Counsel is a transaction participant, not independent verification of commercial performance."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Readable transaction-counsel announcement explicitly confirms $15M seed on July 23, 2026; no substantiated later round located.",
+      "evidence": "Counsel confirms the seed financing and Berlin base; current company site shows voice-agent building and operating tools [telli-counsel; telli-product].",
+      "alternatives": "Inferred alternatives: contact-center staff, outsourcing, conventional call software and competing voice-agent suites.",
+      "risk": "Inferred risk: attractive call volume can mask unsuccessful outcomes, repeated attempts and expensive human rescue.",
+      "nextEvidence": "Proposed diligence: follow one customer workflow from call to correct business outcome; include handoffs, implementation and support in margin.",
+      "sources": [
+        {
+          "id": "telli-announcement",
+          "title": "telli raises seed round to build AI customer operations",
+          "url": "https://www.telli.com/articles/telli-raises-seed-round-to-build-ai-customer-operations",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "unavailable"
+        },
+        {
+          "id": "telli-counsel",
+          "title": "Osborne Clarke advises redalpine on USD 15 million seed financing round of telli",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-usd-15-million-seed-financing-round-ai-powered-customer",
+          "type": "legal_record",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "telli-product",
+          "title": "telli: AI agent platform for customer experience",
+          "url": "https://www.telli.com/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "us-letta",
+      "name": "Letta",
+      "website": "https://www.letta.com/",
+      "theme": "context",
+      "product": "Company-described memory-focused agent research and a model-agnostic stateful agent harness.",
+      "buyer": "Inferred buyer: developers and teams building persistent agents; current commercial budget owner needs confirmation.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2024-09-23",
+          "datePrecision": "day",
+          "amount": 10000000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 10000000,
+              "currency": "USD",
+              "sourceIds": [
+                "letta-investor"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "letta-investor"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "locationType": "company_base",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "letta-company"
+          ]
+        }
+      ],
+      "regions": [
+        "USA"
+      ],
+      "regionRationale": "Current company homepage explicitly places the research lab in San Francisco. Global/legal headquarters are not independently established.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Felicis financing announcement is over two years old.",
+        "March 2026 next-phase statement shifts emphasis to Letta Code and deprecates legacy server-side features; older hosted-agent positioning should not be repeated as current product truth.",
+        "No fresh primary stage confirmation was found."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Verified historical seed does not establish current eligibility; hold pending fresh financing-stage confirmation.",
+      "evidence": "Felicis supports $10M seed in 2024; company now describes a research lab and persistent agent runtime [letta-investor; letta-company; letta-next-phase].",
+      "alternatives": "Inferred alternatives: coding-agent harnesses with local memory, direct model-provider agents and a custom runtime.",
+      "risk": "Inferred risk: a product transition can strand integrations and leave uncertainty about repeated paid use and the monetized product.",
+      "nextEvidence": "Proposed diligence: confirm current financing and commercial product; inspect paid retention through migration and ownership/export of agent memory.",
+      "sources": [
+        {
+          "id": "letta-investor",
+          "title": "Felicis: Bringing Memory to AI Agents",
+          "url": "https://www.felicis.com/blog/letta",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "letta-company",
+          "title": "Letta: Machines that learn",
+          "url": "https://www.letta.com/",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "letta-next-phase",
+          "title": "Letta's Next Phase",
+          "url": "https://www.letta.com/blog/our-next-phase/",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "us-supermemory",
+      "name": "Supermemory",
+      "website": "https://supermemory.ai/",
+      "theme": "context",
+      "product": "Company-described persistent memory and context infrastructure exposed through APIs and agent integrations.",
+      "buyer": "Inferred buyer: AI application developers and enterprises needing longitudinal user or agent context.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed (investor); first funding round (company)",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2025-10",
+          "datePrecision": "month",
+          "amount": null,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 2600000,
+              "currency": "USD",
+              "announcementDate": "2025-10-09",
+              "sourceIds": [
+                "supermemory-investor"
+              ]
+            },
+            {
+              "amount": 3000000,
+              "currency": "USD",
+              "announcementDate": "2025-10-06",
+              "sourceIds": [
+                "supermemory-company-round"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "supermemory-investor",
+            "supermemory-company-round"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "locationType": "company_base",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "supermemory-location"
+          ]
+        }
+      ],
+      "regions": [
+        "USA"
+      ],
+      "regionRationale": "Company page explicitly says the team is based in San Francisco. Founder nationality does not establish an India base; a secondary UK location claim is not accepted.",
+      "conflicts": [
+        {
+          "field": "roundHistory.amount",
+          "status": "unresolved",
+          "claims": [
+            {
+              "value": 2600000,
+              "currency": "USD",
+              "sourceIds": [
+                "supermemory-investor"
+              ]
+            },
+            {
+              "value": 3000000,
+              "currency": "USD",
+              "sourceIds": [
+                "supermemory-company-round"
+              ]
+            }
+          ],
+          "resolution": "Keep null. Do not round, sum or invent separate closings."
+        },
+        {
+          "field": "roundHistory",
+          "status": "unverified_later_or_duplicate_event",
+          "claims": [
+            {
+              "value": "Seed, $3M, 2026-06-27",
+              "sourceIds": [
+                "supermemory-later-claim"
+              ]
+            },
+            {
+              "value": "Two October 2025 rounds, $5.6M total",
+              "sourceIds": [
+                "supermemory-duplicate-claim"
+              ]
+            }
+          ],
+          "resolution": "Keep as conflicting secondary claims outside verified round history; require primary chronology before release."
+        },
+        {
+          "field": "geography",
+          "status": "primary_preferred",
+          "claims": [
+            {
+              "value": "San Francisco team base",
+              "sourceIds": [
+                "supermemory-location"
+              ]
+            },
+            {
+              "value": "United Kingdom base",
+              "sourceIds": [
+                "supermemory-duplicate-claim"
+              ]
+            }
+          ],
+          "resolution": "Use current company's explicit team base; no UK region membership inferred."
+        }
+      ],
+      "qualificationNotes": [
+        "Amount remains null: $2.6M investor and $3M company claims have not been reconciled or assumed to be rounding.",
+        "Fundz dates a $3M seed event June 27, 2026 without primary confirmation; do not add it as a verified new round.",
+        "Millionrounds counts two October 2025 financings and sums the competing amounts; this is not accepted as proof of separate rounds.",
+        "Company API-scale and benchmark assertions remain company claims."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Additional hold after refresh: amount conflict plus unreconciled later financing/date and duplicated-round claims; current stage is not asserted.",
+      "evidence": "Investor and company describe memory infrastructure but disagree on amount; company page supports San Francisco [supermemory-investor; supermemory-company-round; supermemory-location].",
+      "alternatives": "Inferred alternatives: application-owned user profiles, ordinary retrieval, provider memory and competing memory APIs.",
+      "risk": "Inferred risk: contradiction handling and incomplete deletion can degrade personalization or expose data across tenants.",
+      "nextEvidence": "Proposed diligence: obtain one reconciled financing chronology; test contradictory facts, full deletion and tenant isolation on longitudinal data.",
+      "sources": [
+        {
+          "id": "supermemory-investor",
+          "title": "Susa Ventures: Our Investment in Supermemory",
+          "url": "https://susaventures.substack.com/p/our-investment-in-supermemory",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "supermemory-company-round",
+          "title": "Supermemory raises $3 million",
+          "url": "https://supermemory.ai/blog/supermemory-raises-3-million-and-building-the-best-memory-engine-for-llms/",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "supermemory-location",
+          "title": "Supermemory: memory and continual learning for agents",
+          "url": "https://supermemory.ai/about.html",
+          "type": "company_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "supermemory-later-claim",
+          "title": "Fundz: Supermemory funding event dated June 27, 2026",
+          "url": "https://app.fundz.net/signals/supermemory.ai",
+          "type": "secondary_report",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "supermemory-duplicate-claim",
+          "title": "Millionrounds: Supermemory funding table",
+          "url": "https://millionrounds.com/company/supermemory",
+          "type": "secondary_report",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "us-hamming",
+      "name": "Hamming AI",
+      "website": "https://hamming.ai/",
+      "theme": "deployment",
+      "product": "Company-described pre-deployment voice-agent testing and post-deployment quality monitoring.",
+      "buyer": "Inferred buyer: voice-agent engineering and quality teams, including regulated customer-operations deployments.",
+      "roundHistory": [
+        {
+          "originalLabel": "Seed",
+          "normalizedStage": "seed",
+          "announcementDate": "2024-12-18",
+          "datePrecision": "day",
+          "amount": 3800000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 3800000,
+              "currency": "USD",
+              "sourceIds": [
+                "hamming-seed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "hamming-seed"
+          ]
+        }
+      ],
+      "hq": null,
+      "operatingLocations": [
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "locationType": "company_base",
+          "evidenceType": "investor_claim",
+          "sourceIds": [
+            "hamming-yc"
+          ]
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "locationType": "listed_presence",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "hamming-seed"
+          ]
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "locationType": "listed_presence",
+          "evidenceType": "company_claim",
+          "sourceIds": [
+            "hamming-seed"
+          ]
+        }
+      ],
+      "regions": [
+        "USA",
+        "Europe"
+      ],
+      "regionRationale": "YC currently lists San Francisco and jobs there; the company footer lists San Francisco, Austin and London. USA and Europe membership reflects these qualified presence claims, not multiple headquarters.",
+      "conflicts": [
+        {
+          "field": "operatingLocations",
+          "status": "starter_corrected",
+          "claims": [
+            {
+              "value": "Austin per YC",
+              "sourceIds": []
+            },
+            {
+              "value": "San Francisco in the current YC profile",
+              "sourceIds": [
+                "hamming-yc"
+              ]
+            }
+          ],
+          "resolution": "Starter attribution is superseded; retain Austin only as a company-listed presence, not YC HQ."
+        }
+      ],
+      "qualificationNotes": [
+        "Current YC location is San Francisco, replacing the starter's historical Austin attribution to YC.",
+        "Footer location labels do not prove staffed offices or a registered headquarters.",
+        "December 2024 financing is over 22 months old; current product activity does not confirm financing stage."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "verification_hold",
+      "eligibilityReason": "Historical seed is confirmed, but fresh stage confirmation was not found; hold under the requested conservative rule.",
+      "evidence": "Company states $3.8M seed and simulation/monitoring scope; YC currently gives San Francisco [hamming-seed; hamming-yc].",
+      "alternatives": "Inferred alternatives: call sampling, a voice platform's native QA and a customer-built simulator.",
+      "risk": "Inferred risk: simulated callers can fail to expose rare real-call defects, giving unjustified confidence in release decisions.",
+      "nextEvidence": "Proposed diligence: confirm current financing; compare simulated failure scores to blinded production labels and escaped defects after releases.",
+      "sources": [
+        {
+          "id": "hamming-seed",
+          "title": "Hamming AI Raises $3.8M Seed Round",
+          "url": "https://hamming.ai/blog/hamming-ai-seed-funding-to-make-voice-agents-more-reliable",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        },
+        {
+          "id": "hamming-yc",
+          "title": "Y Combinator: Jobs at Hamming AI and company location",
+          "url": "https://www.ycombinator.com/companies/hamming-ai/jobs/",
+          "type": "investor_claim",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    },
+    {
+      "id": "us-traza",
+      "name": "Traza",
+      "website": "https://traza.ai/",
+      "theme": "workflows",
+      "product": "Company-described AI workers for industrial vendor outreach, RFQs, order tracking and invoice reconciliation.",
+      "buyer": "Inferred buyer: procurement and supply-chain operations leaders at manufacturers and construction companies.",
+      "roundHistory": [
+        {
+          "originalLabel": "Pre-seed",
+          "normalizedStage": "pre-seed",
+          "announcementDate": "2026-04-15",
+          "datePrecision": "day",
+          "amount": 2100000,
+          "currency": "USD",
+          "amountClaims": [
+            {
+              "amount": 2100000,
+              "currency": "USD",
+              "sourceIds": [
+                "traza-preseed"
+              ]
+            }
+          ],
+          "sourceIds": [
+            "traza-preseed"
+          ]
+        }
+      ],
+      "hq": {
+        "city": "New York",
+        "country": "United States",
+        "evidenceType": "company_announcement"
+      },
+      "operatingLocations": [
+        {
+          "city": "New York",
+          "country": "United States",
+          "locationType": "headquarters",
+          "evidenceType": "company_announcement",
+          "sourceIds": [
+            "traza-preseed"
+          ]
+        }
+      ],
+      "regions": [
+        "USA"
+      ],
+      "regionRationale": "Company announcement explicitly states New York headquarters. Spanish founder origins do not establish European operations.",
+      "conflicts": [],
+      "qualificationNotes": [
+        "Full autonomy, ROI and repeatability remain company assertions; no pilot or customer outcome was independently tested.",
+        "The market and efficiency figures in the release are not validated company economics.",
+        "a16z scouts' participation is not equivalent to a direct institutional a16z investment."
+      ],
+      "reviewed": "2026-11-04",
+      "relationship": "public_research_only",
+      "assessment": null,
+      "editorialStatus": "published",
+      "eligibilityReason": "Read company release explicitly announces completed pre-seed; no substantiated later financing located.",
+      "evidence": "Company announcement supports $2.1M pre-seed led by Base10, New York HQ and industrial procurement scope [traza-preseed].",
+      "alternatives": "Inferred alternatives: procurement coordinators, ERP/procurement suites, outsourcing and automation of individual back-office steps.",
+      "risk": "Inferred risk: supplier variability and ERP integration can create high delivery costs; incorrect commercial actions may be hard to reverse.",
+      "nextEvidence": "Proposed diligence: observe one RFQ-to-order workflow; quantify interventions and integration hours, and test approval limits and reversal of errors.",
+      "sources": [
+        {
+          "id": "traza-preseed",
+          "title": "Traza emerges with $2.1M pre-seed for enterprise procurement",
+          "url": "https://traza.ai/blog/pre-seed-announcement",
+          "type": "company_announcement",
+          "accessed": "2026-11-04",
+          "status": "read"
+        }
+      ],
+      "assessmentStatus": "unassessed",
+      "screenUrl": null
+    }
+  ]
+}

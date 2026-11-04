@@ -1,0 +1,1513 @@
+{
+  "asOf": "2026-11-04",
+  "frameworks": [
+    {
+      "title": "Seedcamp investment FAQ",
+      "url": "https://seedcamp.com/faqs/",
+      "type": "investor perspective"
+    },
+    {
+      "title": "Bessemer: Vertical AI principles",
+      "url": "https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses",
+      "type": "investor perspective"
+    },
+    {
+      "title": "Anthropic: Demystifying evals for AI agents",
+      "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+      "type": "builder research"
+    },
+    {
+      "title": "Sequoia: Own Your Intelligence",
+      "url": "https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide",
+      "type": "investor perspective"
+    }
+  ],
+  "companies": [
+    {
+      "id": "nudgebee-seed",
+      "title": "NudgeBee Raises $3M Seed Led by Kalaari Capital",
+      "url": "https://www.nudgebee.com/resources/blog/nudgebee-raises-3m-seed-led-by-kalaari-capital",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-nudgebee"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-nudgebee",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "in-nudgebee",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "headquarters; not automatically headquarters."
+        },
+        {
+          "companyId": "in-nudgebee",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "superbryn-investor-2025",
+      "title": "Kalaari: 2025, A Year of Builders, Breakthroughs, and Belief",
+      "url": "https://kalaari.substack.com/p/2025-a-year-of-builders-breakthroughs",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-superbryn"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Interested-party investor description; not independent customer validation."
+    },
+    {
+      "id": "superbryn-investor-2026",
+      "title": "Kalaari: Why We Invested in SuperBryn",
+      "url": "https://kalaari.com/insights-from-the-fronlines/why-we-invested-in-superbryn-2",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-superbryn"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "April 28, 2026 retrospective is a later investor description of pre-seed participation, not evidence of a separate new financing."
+    },
+    {
+      "id": "superbryn-product",
+      "title": "SuperBryn: Voice AI Reliability Platform",
+      "url": "https://superbryn.com/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-superbryn"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "superbryn-office",
+      "title": "SuperBryn hiring post: Bengaluru office",
+      "url": "https://www.linkedin.com/posts/superbryn_hiring-voiceai-artificialintelligence-activity-7473675783669080065-aIkg",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-superbryn"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "operating_office; not automatically headquarters."
+        },
+        {
+          "companyId": "in-superbryn",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Company-authored LinkedIn hiring post explicitly says Bengaluru office; relative posting age is not converted to an exact date."
+    },
+    {
+      "id": "neurofin-seed",
+      "title": "Neurofin Raises $1.6M Seed Round Led by UNLEASH Capital",
+      "url": "https://neurofin.ai/blog/neurofin-seed-funding",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-neurofin"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "headquarters; not automatically headquarters."
+        },
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "neurofin-secondary-date",
+      "title": "Inc42: Neurofin AI Technologies funding",
+      "url": "https://inc42.com/company/neurofin-ai-technologies/funding/",
+      "type": "secondary_report",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-neurofin"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "in-neurofin",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Full table read: June 9, 2025; FAQs also say June 10. Company announcement is July 10. No legal closing date inferred."
+    },
+    {
+      "id": "bolna-seed",
+      "title": "Bolna bags $6.3 million seed funding led by General Catalyst",
+      "url": "https://www.bolna.ai/newsroom/bolna-bags-63-million-seed-funding-led-by-general-catalyst-to-build-indias-voice-ai-platform",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "in-bolna"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "in-bolna",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "in-bolna",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "operating_base; not automatically headquarters."
+        },
+        {
+          "companyId": "in-bolna",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "in-bolna",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "metisjean-release",
+      "title": "MetisJean launches sovereign AI in the UAE: company-issued launch release",
+      "url": "https://uaenews247.com/2026/10/01/uae-startup-metisjean-launches-to-deliver-sovereign-ai-to-nations-public-and-private-sector/",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-metisjean"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-metisjean",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "ae-metisjean",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "headquarters; not automatically headquarters."
+        },
+        {
+          "companyId": "ae-metisjean",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Company-issued release ending ENDS, hosted by UAE News 24/7. Benchmarks and completed financing are company representations. $5M is a fundraising intention."
+    },
+    {
+      "id": "metisjean-about",
+      "title": "MetisJean: Sovereign AI, built in Dubai",
+      "url": "https://metisjean.com/about/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-metisjean"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-metisjean",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "avelin-release",
+      "title": "ZAWYA: AVELIN AI raises $3.7mln in pre-seed funding (syndicated press release)",
+      "url": "https://www.tradingview.com/news/reuters.com%2C2026-07-09%3Anewsml_Zaw22vLpg%3A0-zawya-avelin-ai-raises-3-7mln-in-pre-seed-funding-to-accelerate-sovereign-ai-infrastructure-for-enterprises-and-governments/",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-avelin"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-avelin",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "ae-avelin",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Third-party press-release disclaimer explicitly says content is externally supplied and unedited. Reuters/Refinitiv syndication is not Reuters editorial verification. July 9 date encoded in the syndicated article URL."
+    },
+    {
+      "id": "avelin-company",
+      "title": "AVELIN: company and product profile",
+      "url": "https://avelin.ai/company",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-avelin"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-avelin",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "avelin-contact",
+      "title": "AVELIN: offices and Dubai contracting entity",
+      "url": "https://avelin.ai/contact",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-avelin"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-avelin",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "office_and_contracting_entity, operating_presence; not automatically headquarters."
+        },
+        {
+          "companyId": "ae-avelin",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "qanooni-news",
+      "title": "Qanooni newsroom: June 2025 funding entry",
+      "url": "https://qanooni.ai/news",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-qanooni"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "qanooni-terms",
+      "title": "Qanooni website terms: DIFC entity and place of business",
+      "url": "https://qanooni.ai/terms/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-qanooni"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "legal_place_of_business; not automatically headquarters."
+        },
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Self-published company terms identify DIFC licence CL8804 and place of business. Not an independently obtained registry record; no HQ upgrade."
+    },
+    {
+      "id": "qanooni-secondary-2026",
+      "title": "The SaaS News: Qanooni AI Raises $2M Pre-seed",
+      "url": "https://www.thesaasnews.com/news/qanooni-ai-raises-2m-pre-seed/",
+      "type": "secondary_report",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-qanooni"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "ae-qanooni",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Funding Date field says June 7, 2026; article updated June 8. Its source link points to an unrelated titled article, adding uncertainty. Not treated as a verified new financing."
+    },
+    {
+      "id": "taxstar-release",
+      "title": "Wamda: Tax Star closes $1.75 million Seed round (press release)",
+      "url": "https://www.wamda.com/index.php/ar/2026/08/tax-star-closes-1-75-million-seed-round-expand-gcc",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-taxstar"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Wamda explicitly labels the body Press release, dated August 18. Syndication does not independently verify regulatory status or financing."
+    },
+    {
+      "id": "taxstar-corporate-news",
+      "title": "Gulf News Corporate News: Tax Star raises $1.75m seed round",
+      "url": "https://gulfnews.com/amp/story/business%2Fcorporate-news%2Ftax-star-raises-175m-seed-round-to-scale-as-a-pre-approved-accredited-service-provider-for-uae-e-invoicing-1.500643578",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-taxstar"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Corporate News repeats company release language and is dated August 17. Not counted as independent corroboration of the August 18 release."
+    },
+    {
+      "id": "taxstar-product",
+      "title": "Tax Star: product and Dubai contact address",
+      "url": "https://www.taxstar.app/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "ae-taxstar"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "contact_address; not automatically headquarters."
+        },
+        {
+          "companyId": "ae-taxstar",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Site supplies Dubai contact address and current accreditation claims. No government accreditation register reviewed; rules and deadlines are not independently certified here."
+    },
+    {
+      "id": "qontext-preseed",
+      "title": "Qontext raises $2.7M to build the context layer for AI",
+      "url": "https://qontext.ai/blog/pre-seed",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-qontext"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-qontext",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-qontext",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "eu-qontext",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "zaro-investor",
+      "title": "Cherry Ventures: Shared Memory for AI Agents",
+      "url": "https://cherry.vc/news/shared-memory-for-ai-agents",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-zaro"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-zaro",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-zaro",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Investor is both financier and self-reported user. Prior-employer ARR is not Zaro revenue. Company-round date comes from portfolio story link."
+    },
+    {
+      "id": "zaro-location",
+      "title": "Cherry Ventures: Zaro portfolio profile",
+      "url": "https://cherry.vc/founder-companies/zaro",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-zaro"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-zaro",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-zaro",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "eu-zaro",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Interested-party investor description; not independent customer validation."
+    },
+    {
+      "id": "cognee-seed",
+      "title": "Cognee Raises $7.5M Seed to Build Memory for AI Agents",
+      "url": "https://www.cognee.ai/cognee-raises-seven-million-five-hundred-thousand-dollars-seed",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-cognee"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "cognee-investor",
+      "title": "Combination Ventures: Cognee portfolio profile",
+      "url": "https://www.combination.vc/companies/cognee",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-cognee"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Investor gives Berlin and seed milestone in 2026; first investment is pre-seed 2024. This does not independently verify legal headquarters or full financing history."
+    },
+    {
+      "id": "cognee-stage-conflict",
+      "title": "Dealroom: Cognee funding table",
+      "url": "https://app.dealroom.co/companies/cognee",
+      "type": "secondary_report",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-cognee"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "eu-cognee",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Dealroom financing table classifies February 2026 $7.5M as Series A, while company and Combination call it seed. Amount or order of rounds cannot resolve the label."
+    },
+    {
+      "id": "langwatch-preseed",
+      "title": "LangWatch announces €1M pre-seed funding",
+      "url": "https://langwatch.ai/blog/langwatch-ai-announcing-1m-funding-round-to-bring-the-power-of-evaluations-to-ai-teams",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-langwatch"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-langwatch",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-langwatch",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "langwatch-terms",
+      "title": "LangWatch: terms and Amsterdam registered office",
+      "url": "https://langwatch.ai/legal/terms-conditions",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-langwatch"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-langwatch",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "registered_office; not automatically headquarters."
+        },
+        {
+          "companyId": "eu-langwatch",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Company terms, updated September 22, 2026, supply Amsterdam registered office. Terms are not current financing evidence or independent legal-registry verification."
+    },
+    {
+      "id": "telli-announcement",
+      "title": "telli raises seed round to build AI customer operations",
+      "url": "https://www.telli.com/articles/telli-raises-seed-round-to-build-ai-customer-operations",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "unavailable",
+      "companyIds": [
+        "eu-telli"
+      ],
+      "claimsSupported": [],
+      "notes": "Opening the supplied company article failed with a fetch timeout. Financing is supported by readable transaction counsel, not this unavailable page."
+    },
+    {
+      "id": "telli-counsel",
+      "title": "Osborne Clarke advises redalpine on USD 15 million seed financing round of telli",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-usd-15-million-seed-financing-round-ai-powered-customer",
+      "type": "legal_record",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-telli"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-telli",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "eu-telli",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "eu-telli",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "First-party statement by redalpine's legal adviser, July 23, 2026. Reports $15M seed and $18.5M cumulative financing. legal_record denotes a transaction-counsel announcement, not a statutory filing."
+    },
+    {
+      "id": "telli-product",
+      "title": "telli: AI agent platform for customer experience",
+      "url": "https://www.telli.com/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "eu-telli"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "eu-telli",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "letta-investor",
+      "title": "Felicis: Bringing Memory to AI Agents",
+      "url": "https://www.felicis.com/blog/letta",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-letta"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-letta",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "us-letta",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Interested-party investor description; not independent customer validation."
+    },
+    {
+      "id": "letta-company",
+      "title": "Letta: Machines that learn",
+      "url": "https://www.letta.com/",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-letta"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-letta",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "us-letta",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "letta-next-phase",
+      "title": "Letta's Next Phase",
+      "url": "https://www.letta.com/blog/our-next-phase/",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-letta"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-letta",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "March 16, 2026 product strategy statement establishes Letta Code focus and deprecations. Contains no financing refresh."
+    },
+    {
+      "id": "supermemory-investor",
+      "title": "Susa Ventures: Our Investment in Supermemory",
+      "url": "https://susaventures.substack.com/p/our-investment-in-supermemory",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-supermemory"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Susa's October 9, 2025 statement explicitly says $2.6M pre-seed."
+    },
+    {
+      "id": "supermemory-company-round",
+      "title": "Supermemory raises $3 million",
+      "url": "https://supermemory.ai/blog/supermemory-raises-3-million-and-building-the-best-memory-engine-for-llms/",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-supermemory"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "October 6, 2025 company announcement says first round and $3M. Same financing is not assumed to be a distinct round or rounded amount."
+    },
+    {
+      "id": "supermemory-location",
+      "title": "Supermemory: memory and continual learning for agents",
+      "url": "https://supermemory.ai/about.html",
+      "type": "company_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-supermemory"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    },
+    {
+      "id": "supermemory-later-claim",
+      "title": "Fundz: Supermemory funding event dated June 27, 2026",
+      "url": "https://app.fundz.net/signals/supermemory.ai",
+      "type": "secondary_report",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-supermemory"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Fundz says $3M seed June 27, 2026 and attributes it to letsdatascience.com. Underlying primary confirmation absent; only the existence of this secondary claim is verified."
+    },
+    {
+      "id": "supermemory-duplicate-claim",
+      "title": "Millionrounds: Supermemory funding table",
+      "url": "https://millionrounds.com/company/supermemory",
+      "type": "secondary_report",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-supermemory"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-supermemory",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Millionrounds lists two October 2025 rounds totalling $5.6M and UK geography. Neither the sum nor UK location is adopted; preserve as unreconciled secondary classifications."
+    },
+    {
+      "id": "hamming-seed",
+      "title": "Hamming AI Raises $3.8M Seed Round",
+      "url": "https://hamming.ai/blog/hamming-ai-seed-funding-to-make-voice-agents-more-reliable",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-hamming"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "listed_presence, listed_presence; not automatically headquarters."
+        },
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "December 18, 2024 company funding statement; footer lists San Francisco, Austin and London. Its expert verified badge is not independent verification."
+    },
+    {
+      "id": "hamming-yc",
+      "title": "Y Combinator: Jobs at Hamming AI and company location",
+      "url": "https://www.ycombinator.com/companies/hamming-ai/jobs/",
+      "type": "investor_claim",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-hamming"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "company_base; not automatically headquarters."
+        },
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "conflicts"
+          ],
+          "qualification": "Supports existence of the attributed conflicting claim, not its truth."
+        },
+        {
+          "companyId": "us-hamming",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Current page shows Location: San Francisco and San Francisco engineering jobs. This corrects starter's Austin-per-YC attribution; no legal HQ established."
+    },
+    {
+      "id": "traza-preseed",
+      "title": "Traza emerges with $2.1M pre-seed for enterprise procurement",
+      "url": "https://traza.ai/blog/pre-seed-announcement",
+      "type": "company_announcement",
+      "accessed": "2026-11-04",
+      "status": "read",
+      "companyIds": [
+        "us-traza"
+      ],
+      "claimsSupported": [
+        {
+          "companyId": "us-traza",
+          "fields": [
+            "roundHistory"
+          ],
+          "qualification": "Supports attributed announcement claims only; consult record conflicts and date precision."
+        },
+        {
+          "companyId": "us-traza",
+          "fields": [
+            "operatingLocations",
+            "regions",
+            "regionRationale"
+          ],
+          "qualification": "headquarters; not automatically headquarters."
+        },
+        {
+          "companyId": "us-traza",
+          "fields": [
+            "evidence",
+            "qualificationNotes"
+          ],
+          "qualification": "Attributed source scope; analytical alternatives, risks and proposed tests are research inferences."
+        }
+      ],
+      "notes": "Read source supports attributed historical/product facts; does not establish undisclosed capitalization or independently measured performance."
+    }
+  ],
+  "screens": [
+    {
+      "url": "https://qontext.ai/blog/pre-seed",
+      "title": "Qontext raises $2.7M to build the context layer for AI",
+      "accessed": "2026-11-04",
+      "claim": "Company announcement dated 5 February 2026: Berlin, $2.7M pre-seed led by HV Capital, founders Lorenz Hieber and Nikita Kowalski; production adoption is company-reported. Bounded broader and company-domain financing searches located no newer primary round. Search cannot exclude undisclosed financing; similar-name Kontext results were excluded.",
+      "type": "company_announcement",
+      "status": "accessed_primary_claims_attributed_latest_located_not_current_capitalisation"
+    },
+    {
+      "url": "https://docs.qontext.ai/get-started/quickstart",
+      "title": "Qontext quickstart",
+      "accessed": "2026-11-04",
+      "claim": "Documents importing context, native source connectors, file maintenance, and agent access through MCP/API. Documentation is evidence of the offered integration path, not an executed integration or governance benchmark.",
+      "type": "product_documentation",
+      "status": "accessed_not_tested"
+    },
+    {
+      "url": "https://qontext.ai/about",
+      "title": "About Qontext",
+      "accessed": "2026-11-04",
+      "claim": "Current team page names Lorenz Hieber CEO and Nikita Kowalski CPTO; historical funding page uses CTO. Prior role-specific founder-market fit not established by the reviewed material.",
+      "type": "company_profile",
+      "status": "accessed_biography_attributed"
+    },
+    {
+      "url": "https://kalaari.substack.com/p/superbryn-raises-12-million-in-pre",
+      "title": "SuperBryn Raises $1.2 Million in Pre-seed Round",
+      "accessed": "2026-11-04",
+      "claim": "Original investor announcement is dated 10 December 2025 and confirms $1.2M pre-seed. Names Nikkitha Shanker and Neethu Mariam Joy and reports prior operating/research experience. Early customer/design-partner claims are interested-party statements. No newer primary financing located in bounded searches.",
+      "type": "investor_announcement",
+      "status": "accessed_original_date_resolved_interested_party"
+    },
+    {
+      "url": "https://kalaari.substack.com/p/2025-a-year-of-builders-breakthroughs",
+      "title": "2025: A Year of Builders, Breakthroughs, and Belief",
+      "accessed": "2026-11-04",
+      "claim": "23 December 2025 newsletter repeats SuperBryn's $1.2M pre-seed; follow-through link leads to original 10 December announcement. Recap is not a second round.",
+      "type": "investor_newsletter",
+      "status": "accessed_recap_not_new_round"
+    },
+    {
+      "url": "https://superbryn.com/",
+      "title": "SuperBryn evaluation, observability and roadmap",
+      "accessed": "2026-11-04",
+      "claim": "Advertises evaluations and root-cause analysis; explicitly marks self-learning and multi-model routing as coming soon. Customer names, integrations, monitoring and compliance representations are company claims. No platform use, compliance audit or customer-side outcome validation performed.",
+      "type": "company_product_page",
+      "status": "accessed_roadmap_distinguished_not_tested"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/superbryn_hiring-voiceai-artificialintelligence-activity-7473675783669080065-aIkg",
+      "title": "SuperBryn hiring at its Bengaluru office",
+      "accessed": "2026-11-04",
+      "claim": "Company-authored post explicitly states Bengaluru office. Supports operating location, not legal or global headquarters; relative posting age is not converted to an invented exact date.",
+      "type": "company_social_post",
+      "status": "accessed_via_search_operating_location_only"
+    },
+    {
+      "url": "https://neurofin.ai/blog/neurofin-seed-funding",
+      "title": "Neurofin Raises $1.6M Seed Round Led by UNLEASH Capital",
+      "accessed": "2026-11-04",
+      "claim": "Company page dated 10 July 2025 identifies Bengaluru HQ, $1.6M seed and founder Vijay Makhijani. Named institutions and processing outcomes are company claims; FY26 revenue figure is a target. Bounded financing refresh located no newer primary announcement; exact transaction closing date remains unverified.",
+      "type": "company_announcement",
+      "status": "accessed_primary_announcement_date_target_not_revenue"
+    },
+    {
+      "url": "https://neurofin.ai/",
+      "title": "Neurofin document intelligence, customer references and team",
+      "accessed": "2026-11-04",
+      "claim": "Current site specifies first-time-right document processing, displays customer logos and a Muthoot testimonial, and reports founder banking/fintech experience. Company-hosted Tata Capital earnings-call quotation has not been traced to the issuer's transcript or attributed wholly to Neurofin; customer-side verification remains outstanding. Quantitative site metrics are not adopted as verified outcomes.",
+      "type": "company_product_page",
+      "status": "accessed_company_claims_customer_attribution_unresolved"
+    }
+  ],
+  "journal": [
+    {
+      "url": "https://seedcamp.com/faqs/",
+      "title": "Seedcamp: FAQs",
+      "accessed": "2026-11-04",
+      "claim": "Seedcamp says it considers companies from pre-product and pre-revenue through post-launch, and emphasizes founder problem understanding and action. Used as attributed fund criteria, not a universal venture rule.",
+      "type": "investor-stated-criteria",
+      "status": "read-supports-attributed-claim"
+    },
+    {
+      "url": "https://www.bvp.com/atlas/part-iv-ten-principles-for-building-strong-vertical-ai-businesses",
+      "title": "Bessemer: Part IV: Ten principles for building strong vertical AI businesses",
+      "accessed": "2026-11-04",
+      "claim": "The framework emphasizes customer preferences about automation, integrated workflows and quantifiable ROI. Applied to pilot design as analysis; portfolio anecdotes and aggregate margin claims are not repeated as independent evidence.",
+      "type": "investor-framework",
+      "status": "read-supports-attributed-claim"
+    },
+    {
+      "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+      "title": "Anthropic: Demystifying evals for AI agents",
+      "accessed": "2026-11-04",
+      "claim": "Distinguishes transcripts from resulting environment state; recommends balanced behavior tests, early concrete evaluation tasks and inspection of graders. Supports evaluation design, not validation of any screened company's product.",
+      "type": "primary-technical-research",
+      "status": "read-supports-technical-claim"
+    },
+    {
+      "url": "https://sequoiacap.com/article/own-your-intelligence-a-how-to-guide",
+      "title": "Sequoia: Own Your Intelligence: A How-To Guide",
+      "accessed": "2026-11-04",
+      "claim": "Discusses cost, speed and proprietary data as possible motivations for controlling more of the stack; explicitly says frontier APIs and agents remain appropriate for many workloads. Total-cost comparison in the draft is original analysis.",
+      "type": "investor-framework",
+      "status": "read-supports-attributed-claim"
+    },
+    {
+      "url": "https://docs.letta.com/v1-sdk/concepts/stateful-agents",
+      "title": "Letta: Introduction to Stateful Agents",
+      "accessed": "2026-11-04",
+      "claim": "Documents persisted agent state and editable memory blocks that can be shared between agents. Legacy V1 SDK documentation establishes an implementation pattern only; no commercial superiority or benchmark claim is inferred.",
+      "type": "primary-product-documentation",
+      "status": "read-supports-documented-pattern-legacy-v1"
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "title": "LangGraph: Persistence",
+      "accessed": "2026-11-04",
+      "claim": "Documents checkpointers for thread-scoped graph state and stores for cross-thread data. Supports the existence of framework-level substitutes for separately purchased memory infrastructure.",
+      "type": "primary-product-documentation",
+      "status": "read-supports-technical-claim"
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "title": "LangGraph: Interrupts",
+      "accessed": "2026-11-04",
+      "claim": "Documents pausing execution for external input, persisting state and resuming execution. Used as an implementation example of human intervention; no claim is made about low review cost.",
+      "type": "primary-product-documentation",
+      "status": "read-supports-technical-claim"
+    },
+    {
+      "url": "https://www.intercom.com/help/en/articles/8205718-fin-ai-agent-outcomes",
+      "title": "Intercom: Fin AI Agent outcomes",
+      "accessed": "2026-11-04",
+      "claim": "Defines confirmed and assumed resolutions, billable configured Procedure handoffs and deductions when a customer reopens the same conversation seeking further help. Supports scrutiny of contractual outcome definitions, not an independent assertion of customer value.",
+      "type": "primary-product-documentation",
+      "status": "read-supports-vendor-billing-definition"
+    },
+    {
+      "url": "https://qontext.ai/blog/pre-seed",
+      "title": "Qontext raises $2.7M to build the context layer for AI",
+      "accessed": "2026-11-04",
+      "claim": "Company announcement dated 5 February 2026 identifies Lorenz Hieber and Nikita Kowalski, describes a $2.7M pre-seed and positions an independent reusable context layer. Production and performance statements remain company claims. This historical announcement is not a verification of current financing stage.",
+      "type": "company-announcement",
+      "status": "read-announcement-and-positioning-only"
+    },
+    {
+      "url": "https://supermemory.ai/docs",
+      "title": "Supermemory: Documentation introduction",
+      "accessed": "2026-11-04",
+      "claim": "Read as background on the product category; not used for a substantive claim in the final drafts. The inaccessible memory-engine route was not treated as evidence.",
+      "type": "primary-product-documentation",
+      "status": "read-background-not-cited"
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/usage-based/recording-usage-api",
+      "title": "Stripe: Record usage for billing with the API",
+      "accessed": "2026-11-04",
+      "claim": "Read as background on metering and duplicate-event prevention; not cited as evidence of task quality or included in the final article arguments.",
+      "type": "primary-product-documentation",
+      "status": "read-background-not-cited"
+    },
+    {
+      "url": "https://qontext.ai/blog/agent-concurrency",
+      "title": "Qontext: Solving concurrency issues for parallel AI agents",
+      "accessed": "2026-11-04",
+      "claim": "Opened during research as a follow-up engineering source; no technical or commercial claim in the drafts relies on this article.",
+      "type": "company-technical-article",
+      "status": "opened-background-not-cited"
+    }
+  ]
+}
